@@ -14,6 +14,15 @@
         android:theme="@style/Theme.Testt"
         tools:targetApi="31">
         <activity
+            android:name=".DetailSeminar"
+            android:exported="false" />
+        <activity
+            android:name=".JadwalPeserta"
+            android:exported="false" />
+        <activity
+            android:name=".TambahPeserta"
+            android:exported="false" />
+        <activity
             android:name=".JadwalSemhas"
             android:exported="false" />
         <activity

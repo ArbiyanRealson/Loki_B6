@@ -38,6 +38,7 @@
                 android:layout_weight="4"
                 android:padding="10sp"
                 android:text="Jadwal Seminar Hasil"
+                android:gravity="center_horizontal"
                 android:textColor="@android:color/white"
                 android:textSize="14sp"></TextView>
         </TableRow>
@@ -83,19 +84,116 @@
 
     </TableLayout>
 
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5">
+
+        <TableRow android:background="@color/black">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Daftar Peserta"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"></TextView>
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Nama"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="NIM"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"></TextView>
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Nama"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="NIM"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"></TextView>
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Nama"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="NIM"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"></TextView>
+
+
+        </TableRow>
+
+    </TableLayout>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="Tambah Peserta"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout1" />
 
     <Button
         android:id="@+id/button5"
