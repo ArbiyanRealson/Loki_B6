@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_detail_seminar.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_jadwal_peserta.xml" value="0.22" />
-        <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_jadwal_semhas.xml" value="0.22" />
         <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_login.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_seminar_hasil.xml" value="0.22" />
-        <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_tambah_peserta.xml" value="0.22" />
+        <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_seminar_hasil.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Arbian/StudioProjects/Loki_B6/app/src/main/res/layout/activity_detail_seminar.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Arbian/StudioProjects/Loki_B6/app/src/main/res/layout/activity_login.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Arbian/StudioProjects/Loki_B6/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Arbian/StudioProjects/Loki_B6/app/src/main/res/layout/activity_seminar_hasil.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Arbian/StudioProjects/Loki_B6/app/src/main/res/layout/activity_tambah_peserta.xml" value="0.14130434782608695" />
       </map>
     </option>
   </component>
