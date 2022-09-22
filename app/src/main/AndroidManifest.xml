@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Testt"
         tools:targetApi="31">
         <activity
+            android:name=".JadwalSemhas"
+            android:exported="false" />
+        <activity
             android:name=".Seminar_Hasil"
             android:exported="false" />
         <activity
