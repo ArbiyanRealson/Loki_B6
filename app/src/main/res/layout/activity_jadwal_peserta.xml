@@ -37,9 +37,9 @@
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="Jadwal Seminar Hasil"
-                android:gravity="center_horizontal"
                 android:textColor="@android:color/white"
                 android:textSize="14sp"></TextView>
         </TableRow>
@@ -87,11 +87,12 @@
 
     <TableLayout
         android:id="@+id/tableLayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
         android:layout_margin="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/detailSeminar">
 
@@ -101,101 +102,141 @@
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="Daftar Peserta"
-                android:gravity="center_horizontal"
                 android:textColor="@android:color/white"
                 android:textSize="14sp"></TextView>
 
+            <!--        </TableRow>-->
+
+            <!--        <TableRow android:background="@color/white">-->
+
+            <!--            tools:listitem="@layout/item_peserta";-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="110dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="4"-->
+            <!--                android:padding="10sp"-->
+            <!--                tools:listitem="@layout/item_peserta"-->
+            <!--                android:text="Nama"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14sp"></TextView>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="110dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="4"-->
+            <!--                android:padding="10sp"-->
+            <!--                tools:listitem="@layout/item_peserta"-->
+            <!--                android:text="NIM"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14sp"></TextView>-->
+            <!--        </TableRow>-->
+
+
+            <!--        <TableRow android:background="@color/white">-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="4"-->
+            <!--                android:padding="10sp"-->
+            <!--                android:text="Nama"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14sp"></TextView>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="4"-->
+            <!--                android:padding="10sp"-->
+            <!--                android:text="NIM"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14sp"></TextView>-->
+
+            <!--        </TableRow>-->
+
+            <!--        <TableRow android:background="@color/white">-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="4"-->
+            <!--                android:padding="10sp"-->
+            <!--                android:text="Nama"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14sp"></TextView>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="4"-->
+            <!--                android:padding="10sp"-->
+            <!--                android:text="NIM"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14sp"></TextView>-->
+
+
         </TableRow>
 
-        <TableRow android:background="@color/white">
+    </TableLayout><![CDATA[
 
-            <TextView
-                android:layout_width="110dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="Nama"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
-
-            <TextView
-                android:layout_width="110dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="NIM"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
-        </TableRow>
-
-        <TableRow android:background="@color/white">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="Nama"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="NIM"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
-
-        </TableRow>
-
-        <TableRow android:background="@color/white">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="Nama"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="NIM"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
+    ;
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout1"
+        tools:ignore="MissingConstraints" />
 
 
-        </TableRow>
 
-    </TableLayout>
+
+
+
+
+    ;
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout1"
+        tools:ignore="MissingConstraints"
+        tools:listitem="@layout/item_peserta" />
+
+    ]]>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="278dp"
+        android:layout_height="196dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout1"
+        tools:ignore="MissingConstraints"
+        tools:listitem="@layout/item_peserta" />
 
     <Button
         android:id="@+id/tambahPeserta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Tambah Peserta"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="20dp"
         android:onClick="tambahPeserta"
+        android:text="Tambah Peserta"
         android:textColor="@color/white"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout1" />
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/detailSeminar"
