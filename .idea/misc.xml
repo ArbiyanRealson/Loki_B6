@@ -15,6 +15,28 @@
         <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_login.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Arbian/AndroidStudioProjects/testt/app/src/main/res/layout/activity_seminar_hasil.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_detail_seminar.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_detail_sidang.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_edit_profile.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_ganti_password.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_jadwal_peserta.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_jadwal_semhas.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_jadwal_sidang.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_login.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_main.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_pendaftaran_sidang.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_profile.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_semhas.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_seminar_hasil.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_sidang_ta.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_splash.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/activity_tambah_peserta.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/fragment_account.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/fragment_home.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/fragment_logbook.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/fragment_seminar_hasil.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/fragment_sidang.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Arbian/Downloads/Loki_B6/app/src/main/res/layout/row_jadwal.xml" value="0.1539855072463768" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Loki_B6/app/src/main/res/layout/activity_detail_seminar.xml" value="0.1640625" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Loki_B6/app/src/main/res/layout/activity_edit_profile.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Loki_B6/app/src/main/res/layout/activity_edit_profile2.xml" value="0.13541666666666666" />
@@ -25,7 +47,6 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Loki_B6/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Loki_B6/app/src/main/res/layout/activity_profile.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Loki_B6/app/src/main/res/layout/activity_seminar_hasil.xml" value="0.13179347826086957" />
-
       </map>
     </option>
   </component>
