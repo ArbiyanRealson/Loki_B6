@@ -1,6 +1,8 @@
 package com.example.testt;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
 import android.content.Context;
 import android.content.Intent;
@@ -73,12 +75,12 @@ public class login extends AppCompatActivity {
         call.enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
-                Toast.makeText(login.this, "sedang login...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(login.this, "loadding...", Toast.LENGTH_SHORT).show();
                 if (response.isSuccessful()) {
                     LoginResponse loginResponse = response.body();
                     if (loginResponse != null) {
 
-                        Toast.makeText(login.this, "Berhasil Login", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(login.this, "Login Sukses", Toast.LENGTH_SHORT).show();
 
 
                         SharedPreferences sharedPref = getSharedPreferences("prefs", Context.MODE_PRIVATE);
@@ -98,7 +100,7 @@ public class login extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
-                Toast.makeText(login.this, "Gagal login", Toast.LENGTH_SHORT).show();
+                Toast.makeText(login.this, "Login Gagal", Toast.LENGTH_SHORT).show();
             }
    ;
         });
