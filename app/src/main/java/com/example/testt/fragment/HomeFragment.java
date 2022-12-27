@@ -9,8 +9,8 @@ import android.widget.RelativeLayout;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.sidangmahasiswa.R;
-import com.example.sidangmahasiswa.activity.AddLogbookActivity;
+import com.example.testt.R;
+import com.example.testt.activity.AddLogbookActivity;
 
 public class HomeFragment extends Fragment {
     RelativeLayout btnTambahLogBook;

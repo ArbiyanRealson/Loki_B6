@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/hijau"
+        android:background="@color/green"
         android:orientation="vertical"
         android:padding="16dp">
         <TextView
@@ -18,13 +18,13 @@
             android:layout_height="wrap_content"
             android:text="Hello!!"
             android:textColor="@color/white"
-            android:fontFamily="@font/inter"
+            android:fontFamily="sans-serif"
             android:textSize="16dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="sans-serif"
             android:textColor="@color/white"
             android:textStyle="italic"
             android:textSize="22dp"
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/italianno"
+            android:fontFamily="sans-serif"
             android:text="Pendaftaran TA Mahasiswa Universitas Andalas"
             android:textColor="@color/white"
             android:textSize="22dp"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:background="@drawable/shape_20"
-            android:backgroundTint="@color/merah">
+            android:backgroundTint="@color/red">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:background="@color/hijau">
+        android:background="@color/green">
         <ImageView
             android:layout_width="42dp"
             android:layout_height="42dp"
@@ -112,7 +112,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="@color/abuabu"
+        android:background="@color/grey"
         android:layout_marginHorizontal="16dp">
 
         <TextView
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/shape_20"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/abuabuGelap">
+            android:backgroundTint="@color/grey">
 
             <TextView
                 android:layout_width="wrap_content"

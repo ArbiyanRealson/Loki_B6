@@ -6,7 +6,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sidangmahasiswa.R;
+import com.example.testt.R;
 
 public class AddLogbookActivity extends AppCompatActivity {
     ImageView btnBack;
