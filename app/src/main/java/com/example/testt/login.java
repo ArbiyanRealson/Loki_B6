@@ -75,7 +75,7 @@ public class login extends AppCompatActivity {
         call.enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
-                Toast.makeText(login.this, "loadding...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(login.this, "loading...", Toast.LENGTH_SHORT).show();
                 if (response.isSuccessful()) {
                     LoginResponse loginResponse = response.body();
                     if (loginResponse != null) {
