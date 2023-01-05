@@ -11,4 +11,21 @@
     <color name="green">#32CD32</color>
     <color name="grey">#778899</color>
     <color name="gold">#FFD700</color>
+    <color name="hitam">#0C0C0C</color>
+    <color name="oren">#ECAD03</color>
+    <color name="orentua">#F9795D</color>
+    <color name="abulatar">#E3E8ED</color>
+    <color name="abumuda">#F0F2F5</color>
+    <color name="abutua">#979797</color>
+    <color name="hijau">#23AF7D</color>
+    <color name="silver">#f5f5f5</color>
+    <color name="silver_tulisan">#828282</color>
+    <color name="emas">#F7DE9A</color>
+    <color name="emas_tulisan">#AF840E</color>
+    <color name="putih">#ffffff</color>
+    <color name="orenmuda">#F7DE9A</color>
+    <color name="hijaumuda">#C0F2DF</color>
+    <color name="abusemhas">#828282</color>
+    <color name="buttonsemhas">#F5F5F5</color>
+    <color name="orensidang">#AF840E</color>
 </resources>

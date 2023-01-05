@@ -43,7 +43,7 @@ public class semhas extends AppCompatActivity {
 
         SharedPreferences sharedPref = getSharedPreferences("prefs", Context.MODE_PRIVATE);
         token = sharedPref.getString("TOKEN","");
-        sharedPrefManager = new SharedPrefManager(this);
+        //sharedPrefManager = new SharedPrefManager(this);
 
         log_out = findViewById(R.id.log_out);
 
@@ -53,6 +53,9 @@ public class semhas extends AppCompatActivity {
 
                 logout();
             }
+        });
+
+    }
 
 
 
@@ -78,7 +81,7 @@ public class semhas extends AppCompatActivity {
             }
         });
     }
-  });}
+  //});}
 
     public void aju(View view) {
         Intent intent = new Intent(semhas.this,Seminar_Hasil.class);
@@ -90,11 +93,15 @@ public class semhas extends AppCompatActivity {
         startActivity(intent);
     }
 
-
-    public void logout(View view) {
-        Intent intent = new Intent(semhas.this, splash.class);
+    public void kelistlb(View view) {
+        Intent intent = new Intent(semhas.this, a_list_logbook.class);
         startActivity(intent);
     }
+
+//    public void logout(View view) {
+//        Intent intent = new Intent(semhas.this, splash.class);
+//        startActivity(intent);
+//    }
 }
 
 //    public void logout(View view) {
