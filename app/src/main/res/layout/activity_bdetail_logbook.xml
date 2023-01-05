@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/putih"
-    tools:context=".a6_detail_logbook">
+    tools:context=".b_detail_logbook">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -56,11 +56,11 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
         android:layout_marginTop="21dp"
-        android:text="tanggallogbook"
+
         android:textColor="@color/hitam"
         android:textSize="14sp"
         android:fontFamily="@font/poppinsmedium"
@@ -83,12 +83,12 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppinsmedium"
-        android:text="namasaya"
+
         android:textColor="@color/hitam"
 
         android:textSize="14sp"
@@ -111,12 +111,12 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppinsmedium"
-        android:text="nimsaya"
+
         android:textColor="@color/hitam"
 
         android:textSize="14sp"
@@ -144,7 +144,7 @@
         android:layout_marginStart="145dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppinsmedium"
-        android:text="pembimbingsaya"
+
         android:textColor="@color/hitam"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,7 +170,7 @@
         android:layout_marginStart="145dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppinsmedium"
-        android:text="Catatanlogbookdisini"
+
         android:textColor="@color/hitam"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -196,7 +196,7 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppinsmedium"
-        android:text="Masalahdiperoleh"
+
         android:textColor="@color/hitam"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"

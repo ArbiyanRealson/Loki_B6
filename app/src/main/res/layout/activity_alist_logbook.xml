@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".a_list_logbook">
 
-    android:background="@color/putih"
-    tools:context=".a5_list_logbook">
 
     <ImageView
         android:id="@+id/imageView"
@@ -51,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:listitem="@layout/activity_listlogbook2sss" />
+        tools:listitem="@layout/activity_listlogbook2" />
 
     <Button
         android:id="@+id/button"

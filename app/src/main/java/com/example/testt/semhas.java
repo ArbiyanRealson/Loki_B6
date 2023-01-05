@@ -31,6 +31,7 @@ import com.google.mlkit.common.sdkinternal.SharedPrefManager;
 
 public class semhas extends AppCompatActivity {
     String token;
+    private Boolean isLoggedIn = false;
     Button log_out;
     SharedPrefManager sharedPrefManager;
 
@@ -39,10 +40,21 @@ public class semhas extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_semhas);
-
         SharedPreferences sharedPref = getSharedPreferences("prefs", Context.MODE_PRIVATE);
         token = sharedPref.getString("TOKEN","");
+        Intent mainIntent = getIntent();
+        String username = mainIntent.getStringExtra("USERX");
+        isLoggedIn = mainIntent.getBooleanExtra("LOGX", false);
+
+        if (token.equals("")) {
+            //Panggil activity Login
+            Intent loginIntent = new Intent(this,login.class);
+            startActivity(loginIntent);
+            finish();
+        }
+        setContentView(R.layout.activity_semhas);
+
+
         //sharedPrefManager = new SharedPrefManager(this);
 
         log_out = findViewById(R.id.log_out);
