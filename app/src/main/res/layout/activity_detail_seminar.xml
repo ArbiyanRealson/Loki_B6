@@ -35,11 +35,12 @@
         <TableRow android:background="@color/white">
 
             <TextView
+                android:id="@+id/registered"
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="10sp"
-                android:text="Nama"
+                android:text="Registered At"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"></TextView>
         </TableRow>
@@ -60,11 +61,12 @@
             <TableRow android:background="@color/white">
 
                 <TextView
+                    android:id="@+id/thesisid"
                     android:layout_width="110dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="4"
                     android:padding="10sp"
-                    android:text="NIM"
+                    android:text="Thesis Id"
                     android:textColor="@android:color/black"
                     android:textSize="14sp"></TextView>
             </TableRow>
@@ -85,11 +87,12 @@
         <TableRow android:background="@color/white">
 
             <TextView
+                android:id="@+id/jurnal"
                 android:layout_width="110dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="4"
                 android:padding="10sp"
-                android:text="Pembimbing 1"
+                android:text="Jurnal"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"></TextView>
         </TableRow>
@@ -110,11 +113,12 @@
         <TableRow android:background="@color/white">
 
             <TextView
+                android:id="@+id/status"
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="10sp"
-                android:text="Pembimbing 2"
+                android:text="Status"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"></TextView>
         </TableRow>
@@ -135,11 +139,12 @@
         <TableRow android:background="@color/white">
 
             <TextView
+                android:id="@+id/seminar"
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="10sp"
-                android:text="Judul / Topik Tugas Akhir"
+                android:text="Seminar At"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"></TextView>
         </TableRow>
@@ -160,11 +165,12 @@
         <TableRow android:background="@color/white">
 
             <TextView
+                android:id="@+id/room"
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="10sp"
-                android:text="Tanggal"
+                android:text="Room"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"></TextView>
         </TableRow>
@@ -185,11 +191,12 @@
         <TableRow android:background="@color/white">
 
             <TextView
+                android:id="@+id/filereport"
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="10sp"
-                android:text="Jam"
+                android:text="File Report"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"></TextView>
         </TableRow>

@@ -37,11 +37,11 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:fontFamily="sans-serif-black"
+            android:text="Nama"
             android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/avatar"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Nama" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/nim"
@@ -50,11 +50,11 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:fontFamily="sans-serif-black"
+            android:text="NIM"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/avatar"
-            app:layout_constraintTop_toBottomOf="@+id/nama"
-            tools:text="NIM" />
+            app:layout_constraintTop_toBottomOf="@+id/nama" />
 
         <TextView
             android:id="@+id/noHP"
@@ -64,11 +64,11 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="sans-serif-black"
+            android:text="no HP"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/avatar"
-            app:layout_constraintTop_toBottomOf="@+id/nim"
-            tools:text="no HP" />
+            app:layout_constraintTop_toBottomOf="@+id/nim" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

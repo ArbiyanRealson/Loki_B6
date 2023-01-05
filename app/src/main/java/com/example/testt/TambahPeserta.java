@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+
 public class TambahPeserta extends AppCompatActivity {
 
     @Override
@@ -18,4 +19,5 @@ public class TambahPeserta extends AppCompatActivity {
         Intent intent = new Intent(TambahPeserta.this, JadwalPeserta.class);
         startActivity(intent);
     }
+
 }
